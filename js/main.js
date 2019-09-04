@@ -1,6 +1,6 @@
 // Initialize and add the map
 function initMap() {
-  // Your location
+  // Location
   const loc = { lat: 37.792747, lng: -122.409494 };
   // Centered map on location
   const map = new google.maps.Map(document.querySelector('.map'), {
@@ -42,6 +42,7 @@ const form = document.getElementById('contact-form');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  
   // Show alert
   document.querySelector('.alert').style.display = 'block';
 
