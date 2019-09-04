@@ -137,7 +137,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #333 url('../img/sanfran.jpg') no-repeat center center/cover;
+  background: #333 url('../img/sanfrandarker.jpg') no-repeat center center/cover;
   height: 100vh;
   color: var(--text-light);
 }
@@ -151,12 +151,6 @@ p {
   height: 100%;
   padding: 0 2rem;
   /* Overlay */
-  position: absolute;
-  top: 65px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Section: Mission */
@@ -286,10 +280,6 @@ p {
 
   #navbar ul {
     padding: 0.5rem;
-  }
-
-  #showcase .showcase-content {
-    top: 110px;
   }
 
   #team {
